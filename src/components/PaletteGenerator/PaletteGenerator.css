@@ -1,0 +1,65 @@
+.palette-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-feild{
+  display: flex;
+
+}
+input[type="text"] {
+  width: 100%; 
+  padding: 5px; 
+  margin: 3px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  font-size: 14px; 
+  color: #333;
+  background-color: #fff;
+  outline: none; 
+}
+
+input[type="text"]:focus {
+  border-color: #af2867a1; 
+  box-shadow: 0 0 5px rgba(174, 12, 115, 0.5); 
+}
+
+
+.color-palette {
+  display: flex;
+  margin: 10px 0;
+}
+
+.color-block {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.color-code {
+  font-size: 0.9em;
+}
+
+.lock-btn {
+  position: absolute;
+  bottom: -30px;
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.lock-btn.locked {
+  background-color: red;
+}
+
+

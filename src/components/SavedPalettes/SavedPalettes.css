@@ -1,0 +1,28 @@
+.saved-palettes {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.saved-palette {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.saved-color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.saved-color-block {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.9em;
+}

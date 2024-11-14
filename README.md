@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Color Palette Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+In this task, you will build a simple React-based application that focuses on managing user inputs and displaying dynamic data. The Color Palette Generator allows users to generate random color palettes, save their favorite palettes, and interact with them in different ways. This project demonstrates handling user interactions, state management, and basic styling in React.
 
-In the project directory, you can run:
+## Assignment Description
 
-### `npm start`
+Create a "Color Palette Generator" application where users can generate random color palettes and save their favorite palettes. The task will allow you to demonstrate handling user interactions, state management, and basic styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Random Color Generation:**
+   - Create a button that, when clicked, generates a random color palette consisting of 5 colors.
+   - Display the colors as horizontal blocks or squares in a row, showing both the color and its hex code.
 
-### `npm test`
+2. **Save Favorite Palette:**
+   - Allow users to save a generated color palette by clicking a "Save Palette" button.
+   - Saved palettes should be displayed in a list below the generator.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Palette List:**
+   - Display saved color palettes, showing the color blocks and their corresponding hex codes.
+   - Persist the list of saved palettes in the browser using **local storage**, so that the saved palettes remain even after refreshing the page.
 
-### `npm run build`
+4. **Styling:**
+   - Use basic styling to ensure the color blocks and the overall interface look clean and appealing.
+   - Ensure the app is responsive on both **mobile** and **desktop**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Bonus Features (Optional):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Copy to Clipboard:** Allow users to click on a color’s hex code to copy it to the clipboard.
+- **Delete Palette:** Add functionality for users to delete a saved palette from the list.
+- **Name the Palette:** Allow users to name each saved color palette.
+- **Lock Colors:** Allow users to lock specific colors in the palette so that only the unlocked ones change during random generation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js
+- npm (Node Package Manager)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Steps
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Bhavaniviswanadham/color-palette-generator.git
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Navigate to the project folder:**
+    ```bash
+    cd color-palette-generator
+    ```
 
-## Learn More
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Start the development server:**
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    The app will run on [http://localhost:3000](http://localhost:3000).
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Generate Palette**: Click the "Generate Palette" button to create a new random color palette.
+- **Save Palette**: After generating a palette, provide a name for it and click the "Save Palette" button to save it.
+- **View Saved Palettes**: Saved palettes will be listed below the generator, showing the color blocks and their hex codes.
+- **Delete Palette**: Click on the "Delete" button next to a saved palette to remove it from the list.
+- **Copy Color Hex Code**: Click on any color's hex code to copy it to the clipboard.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend**: React.js
+- **State Management**: React `useState` hook
+- **Storage**: Local Storage for persistent palette saving
+- **Styling**: CSS
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to fork this project, make your changes, and submit a pull request. Contributions are welcome!
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open-source and available under the MIT License.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or inquiries, reach out at [your.email@example.com](mailto:your.email@example.com).
