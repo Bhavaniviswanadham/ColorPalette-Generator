@@ -87,6 +87,3 @@ Feel free to fork this project, make your changes, and submit a pull request. Co
 
 This project is open-source and available under the MIT License.
 
-## Contact
-
-For any questions or inquiries, reach out at [your.email@example.com](mailto:your.email@example.com).
